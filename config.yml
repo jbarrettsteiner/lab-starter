@@ -23,37 +23,37 @@ before:
 # Create one step for each action that a learner will complete
 
 steps:
-# Step 1: INTERNAL COMMENT DESCRIBING STEP 
-- title: # the title of the step, shown to the learner in the course progress page
-  description: # a description of the step, shown to the learner in the course progress page
+# Step 1: EDIT HERE - INTERNAL COMMENT DESCRIBING STEP 
+- title: # Setup your Github & Twillio accounts
+  description: # in this step, we will setup your accounts with GitHub and Twillio, to setup the framework for the next steps
   event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 2: INTERNAL COMMENT FOR STEP 2
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+# Step 2: EDIT HERE -INTERNAL COMMENT FOR STEP 2
+# - title: # Setting up our environment
+#  description: # next we have to set our environment up. This guide was written in Python 3.6. Now we need to download Python and Pip, if you haven't already.
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 3: INTERNAL COMMENT FOR STEP 3
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+# Step 3: EDIT HERE - INTERNAL COMMENT FOR STEP 3
+# - title: # Moving from Prerequisites to Simple Systems
+#  description: # Prerequisites are setup, now let's start creating systems in your virtual machine. Now that your account is setup with Twillio and GitHub, you’ll need to retrieve your API keys by selecting Settings > Developer Settings > Personal Access Tokens > Generate new token. For the scopes, select everything under "repo". Your token will be shown on the next screen. Once you have your API keys, we can move onto coding in the next task. Before we move ahead, we’ll take a moment to explore what object-oriented approach means.
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 4: INTERNAL COMMENT FOR STEP 4
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+# Step 4: EDIT HERE - INTERNAL COMMENT FOR STEP 4
+# - title: # Object-orientated code, your first GitHub API
+#  description: # we will begin by creating a class called “PullNotifs” in a file named github_notifier.py. I’ve chosen a class name that reflects the name of the GitHub organization I’m getting notifications for, but feel free to choose your own name.
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 5: INTERNAL COMMENT FOR STEP 5
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
+# Step 5: EDIT HERE - INTERNAL COMMENT FOR STEP 5
+# - title: # Testing with a Pull-Request
+#  description: # In the final step, we review all the work and test to see if you receive a SMS notification!
 #  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
