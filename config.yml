@@ -58,3 +58,23 @@ steps:
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
+# Step 6: EDIT HERE - INTERNAL COMMENT FOR STEP 5
+# - title: # Testing with a Pull-Request
+#  description: # In this function, we begin by initializing a variable count to 0, which keeps track of the index of each repo that will be in the list initialized in the constructor.
+#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+#  actions: # a list of the actions that will occur when the step is triggered by an event
+#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+
+# Step 7: EDIT HERE - INTERNAL COMMENT FOR STEP 5
+# - title: # Integrate Twilio API for Notifications
+#  description: # Lastly, we pull in the Twilio API for notification. This will send a text message to your number with just four lines of code.
+#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+#  actions: # a list of the actions that will occur when the step is triggered by an event
+#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+
+# Step 8: EDIT HERE - INTERNAL COMMENT FOR STEP 5
+# - title: # Testing everything with a Pull-Request
+#  description: # Now that we’ve finished all the parts of our codebase, we can put them all together! In the final step, we review all the work and test to see if you receive a SMS notification!
+#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+#  actions: # a list of the actions that will occur when the step is triggered by an event
+#  - type: # the type of action, full list at https://lab.github.com/docs/actions
